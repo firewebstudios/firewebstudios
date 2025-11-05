@@ -1,0 +1,87 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #0f0f0f;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  padding: 50px 0;
+  background: linear-gradient(45deg, #ff3300, #ff9900);
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.project-card {
+  background: #1b1b1b;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  box-shadow: 0 0 10px #ff3300;
+}
+
+a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #111;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.hire-btn {
+  display: inline-block;
+  background: linear-gradient(45deg, #ff3300, #ff9900);
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hire-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff6600;
+}
+
+#contact-form {
+  padding: 50px 20px;
+  background: #141414;
+  border-top: 2px solid #ff3300;
+}
+
+#contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+#contact-form button {
+  cursor: pointer;
+}
